@@ -1,7 +1,7 @@
-let num=+prompt('Enter a number');
-let total=0;
+let num= parseInt(prompt('Nhập 1 số'));
+let total=num;
 while (num != -1){
-    num=+prompt('Enter a number');
-    alert(num);
+    num = +prompt('Nhập 1 số');
+    total += num;
 }
-document.write(total);
+alert(total);
